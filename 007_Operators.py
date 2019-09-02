@@ -35,8 +35,8 @@ print(x)
 
 x = 2 # assigning value
 
-if x == 2: print("jednako") #equals
-if x > 2: print("veće") # other:  >=  <=
+if x == 2: print("equals") #equals
+if x > 2: print("greater than") # other:  >=  <=
 
 if not(x > 2): print("less")
 
@@ -79,7 +79,7 @@ y=2
 if x is y: print("OK")
 if x is not y+1: print("this is OK")
 b=[1,1,2,3,4,3,2,2,2]
-if 4 in b: print("Ther is 4 in b")
+if 4 in b: print("There is 4 in b")
 if 7 not in b: print("There is no 7 in b")
 
 

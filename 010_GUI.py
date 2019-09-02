@@ -1,5 +1,5 @@
 from tkinter import Tk, Label, Button, Entry, StringVar
-import ESSIS as k
+import ESSIS as e
 #Class
 class Prozor:
     #Constructor

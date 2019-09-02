@@ -48,7 +48,7 @@ print(end - start)
 
 number_from,number_to=24,90
 
-for i in e.primeNUmbers(number_from,number_to):
+for i in e.primeNumbers(number_from,number_to):
     print(i,end="+")
 
 print("=",e.sumPrimeNumbers(number_from,number_to))

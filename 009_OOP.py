@@ -21,8 +21,8 @@ class Freshmen(Person,Student):
 
 s=Freshmen()
 
-s.ime="Lada"
-s.prezime="Jakopec"
+s.first_name="Lada"
+s.last_name="Jakopec"
 s.id="012327282732"
 s.fraternitie_member=True
 

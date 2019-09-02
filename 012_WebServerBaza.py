@@ -21,7 +21,7 @@ def index():
                                  cursorclass=pymysql.cursors.DictCursor)
     try:
         with connection.cursor() as cursor:
-            sql = "select name from example where sifra=%s"
+            sql = "select name from example where id=%s"
             cursor.execute(sql, (1))
             result_from_database = cursor.fetchone()
     finally:

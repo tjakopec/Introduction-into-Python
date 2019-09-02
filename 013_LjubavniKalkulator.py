@@ -8,11 +8,3 @@ print(e.love_cli("Tomislav","Nataša",False))
 
 print(e.love_cli("Dora","Šimun"))
 print(e.love_cli("Blanka","Krunoslav"))
-
-
-#
-# Homework
-#
-"""
-Create GUI as image in thin directory. Kids type two names an percentage is shown in heart.
-"""
